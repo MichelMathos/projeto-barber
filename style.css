@@ -5,11 +5,28 @@
   outline: 0;
 }
 
-@import "partials/_colors.scss";
-
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
   height: 100vh;
   position: relative;
+  background-color: #040f1a;
+}
+
+button {
+  font-family: "Sora", sabs-serif;
+  cursor: pointer;
+}
+
+svg {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
