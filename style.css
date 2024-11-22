@@ -25,7 +25,37 @@ i {
 }
 
 .header-icons a:hover i {
+  animation: translatey 0.8s infinite alternate;
   color: #b34040;
+}
+
+@keyframes translatey {
+  from {
+    transform: translatey(0) scale(1);
+  }
+  to {
+    transform: translatey(-8px) scale(1.1);
+  }
+}
+.header-button {
+  border: 1px solid #fff;
+  padding: 8px 24px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: transparent;
+  transition: background-color 0.8s;
+}
+
+.header-button:hover {
+  border: 1px solid #b34040;
+  background-color: #b34040;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
 }
 
 body {
@@ -54,7 +84,3 @@ a {
   text-decoration: none;
 }
 
-/*
-https://www.youtube.com/watch?v=Fzc_dnqD-V0&t=1263s
-Parei no video em 23:58
-*//*# sourceMappingURL=style.css.map */
